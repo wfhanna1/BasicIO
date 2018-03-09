@@ -63,7 +63,6 @@ namespace FileProcessingHelper
                         outputStream.Write("]");
                     }
                 }
-                return 0;
             }
             catch (Exception ex)
             {
@@ -78,6 +77,7 @@ namespace FileProcessingHelper
                 inputStream.Close();
                 inputStream.Dispose();
             }
+            return 0;
         }
     }
 }
